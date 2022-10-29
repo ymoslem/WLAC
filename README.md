@@ -23,7 +23,7 @@ ct2-opennmt-py-converter --model_path model.pt --quantization int8 --output_dir 
 
 ## Translation with CTranslate2
 
-This is a minimum working example:
+This is a minimal working example:
 ```
 import ctranslate2
 import sentencepiece as spm
@@ -44,7 +44,7 @@ print(output)
 
 In this repository, you can find scripts we used for auto-completion. The script [complete.py](complete.py) is for Latin-based target languages (EN-DE, DE-EN, and ZH-EN), while the script [zh-complete.py](zh-complete.py) is for the Chinese target (EN-ZH).
 
-More details about decoding features of in the official [CTranslate2 documentation](https://opennmt.net/CTranslate2/decoding.html).
+Feel free to find out more details about CTranslate2's decoding features in the official [CTranslate2 documentation](https://opennmt.net/CTranslate2/decoding.html).
 
 
 ## Citation
