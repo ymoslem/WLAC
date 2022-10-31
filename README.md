@@ -50,11 +50,18 @@ Feel free to find out more details about CTranslate2's decoding features in the 
 ## Citation
 
 ```
-@ARTICLE{Moslem2022-WLAC,
-  title    = "{Translation Word-Level Auto-Completion: What can we achieve out
-              of the box?}",
-  author   = "Moslem, Yasmin and Haque, Rejwanul and Way, Andy",
-  abstract = "Research on Machine Translation (MT) has achieved important
+@inproceedings{moslem2022-autosuggest,
+    title = "Word-Level Auto-Completion: What can we achieve out of the box?",
+    author = "Moslem, Yasmin  and
+      Haque, Rejwanul  and
+      Way, Andy",
+    booktitle = "In Proceedings of the Seventh Conference on Machine Translation",
+    month = Dec,
+    year = "2022",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://arxiv.org/abs/2210.12802",
+    abstract = "Research on Machine Translation (MT) has achieved important
               breakthroughs in several areas. While there is much more to be
               done in order to build on this success, we believe that the
               language industry needs better ways to take full advantage of
@@ -77,9 +84,5 @@ Feel free to find out more details about CTranslate2's decoding features in the 
               good results. Furthermore, we introduce our open-source API,
               based on CTranslate2, to serve translations, auto-suggestions,
               and auto-completions.",
-  journal  = "arXiv [cs.CL]",
-  month    =  oct,
-  year     =  2022,
-  url      = "http://arxiv.org/abs/2210.12802"
 }
 ```
