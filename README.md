@@ -19,7 +19,7 @@ Optionally, you can use quantization to compress the model and improve efficienc
 ```
 ct2-opus-mt-converter --model_dir opus_model --quantization int8 --output_dir ct2_model
 ```
-3. Translate using the output CTranslate2 model. Note that SentencePiece tokenization models can be found in the original OPUS model directory.
+3. Translate using the output CTranslate2 model. Note that SentencePiece tokenization models `source.spm` and target.spm` can be found in the original OPUS model directory.
 
 ## Translation with CTranslate2
 
