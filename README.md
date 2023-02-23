@@ -11,7 +11,7 @@ pip3 install ctranslate2 nltk tqdm sentencepiece pypinyin jieba
 ## Convertion of OPUS models to CTranslate2
 
 1. Download the model you need from [OPUS models](https://github.com/Helsinki-NLP/Tatoeba-Challenge/tree/master/models).
-2. Convert the model to the CTranslate2 format:
+2. Convert the model to the [CTranslate2](https://github.com/OpenNMT/CTranslate2) format:
 ```
 ct2-opus-mt-converter --model_dir opus_model --output_dir ct2_model
 ```
