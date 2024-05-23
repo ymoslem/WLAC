@@ -3,4 +3,4 @@ jieba==0.42.1
 nltk==3.7
 pypinyin==0.46.0
 sentencepiece==0.1.96
-tqdm==4.64.0
+tqdm==4.66.3
