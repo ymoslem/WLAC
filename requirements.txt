@@ -2,5 +2,5 @@ ctranslate2==2.20.0
 jieba==0.42.1
 nltk==3.9
 pypinyin==0.46.0
-sentencepiece==0.1.96
+sentencepiece==0.2.1
 tqdm==4.66.3
